@@ -15,6 +15,11 @@ Activate the environment and install all requirements.
 
 `pip install -r requirements.txt`
 
+Git LFS is used to store larger files, make sure it is available on your system.
+Initialize once via
+
+`git lfs install`
+
 
 ## 👷 Project Files
 All python files with the prefix "run_" are the main files to be run.
@@ -26,7 +31,8 @@ as specified below.
 File run_train.py includes the training procedure for both Evidential Deep
 Learning
 (EDL) and Conformal Prediction (CP) approaches. File run_train_ese.py includes
-the training procedure for the Ensemble (ESE) approach.
+the training procedure for the Ensemble (ESE - referred to as NNE in our paper)
+approach.
 
 The training is computational expensive, we used an NVIDIA RTX 3090 GPU and 64
 GB of RAM.
