@@ -1,6 +1,6 @@
 # Capturing Uncertainty Over Time for Spiking Neural Networks by Exploiting Conformal Prediction Sets
 
-This repository is the official implementation of our paper with ID 197.
+This repository is the official implementation of our paper.
 
 ## 📋 Requirements
 
