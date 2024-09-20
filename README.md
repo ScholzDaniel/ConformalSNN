@@ -15,16 +15,12 @@ Activate the environment and install all requirements.
 
 `pip install -r requirements.txt`
 
-Git LFS is used to store larger files, make sure it is available on your system.
-Initialize once via
-
-`git lfs install`
-
-
 ## 👷 Project Files
 All python files with the prefix "run_" are the main files to be run.
 Flags are not mandatory but are available when one wants to change the default
 as specified below.
+
+**❗Temporary workaround:** Due to git-lfs quota limitations, the data for the DVS and NMNIST dataset is uploaded to [Google Drive](https://drive.google.com/drive/folders/1P8dxo3pmMz8Ub6i1nAmmVw8pDnl6rxjL). Please download it to the data directory if you want to use those datasets.
 
 ## 📋 Training Networks
 
