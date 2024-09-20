@@ -1,6 +1,6 @@
 # Capturing Uncertainty Over Time for Spiking Neural Networks by Exploiting Conformal Prediction Sets
 
-This repository is the official implementation of our paper.
+This repository is the official implementation of our paper accepted at [ICMLA2024](https://icmla-conference.org/icmla24/index.php).
 
 ## 📋 Requirements
 
@@ -65,3 +65,16 @@ Print values of Table 3 for the Soli dataset:
 `python run_cp.py --model Soli --allow_empty true`
 
 Omit the --allow_empty flag for EDL and ESE experiments.
+
+## Citation
+
+We appreciate if you cite our work when you use the code for your experiments.
+```bibtex
+@inproceedings{scholz2024conformalsnn,
+  title={Capturing Uncertainty Over Time for Spiking Neural Networks by Exploiting Conformal Prediction Sets},
+  author={Scholz, Daniel and Emonds, Oliver and Kreutz, Felix and Gerhards, Pascal and Huang, Jiaxin and Knobloch, Klaus and Knoll, Alois and Mayr, Christian},
+  booktitle={2024 International Conference on Machine Learning and Applications (ICMLA)},
+  year={2024},
+  organization={IEEE}
+}
+```
