@@ -66,11 +66,14 @@ Omit the --allow_empty flag for EDL and ESE experiments.
 
 We appreciate if you cite our work when you use the code for your experiments.
 ```bibtex
-@inproceedings{scholz2024conformalsnn,
-  title={Capturing Uncertainty Over Time for Spiking Neural Networks by Exploiting Conformal Prediction Sets},
+@INPROCEEDINGS{scholz2024conformalsnn,
   author={Scholz, Daniel and Emonds, Oliver and Kreutz, Felix and Gerhards, Pascal and Huang, Jiaxin and Knobloch, Klaus and Knoll, Alois and Mayr, Christian},
-  booktitle={2024 International Conference on Machine Learning and Applications (ICMLA)},
+  booktitle={2024 International Conference on Machine Learning and Applications (ICMLA)}, 
+  title={Capturing Uncertainty over Time for Spiking Neural Networks by Exploiting Conformal Prediction Sets}, 
   year={2024},
-  organization={IEEE}
+  volume={},
+  number={},
+  pages={107--114},
+  doi={10.1109/ICMLA61862.2024.00021}
 }
 ```
